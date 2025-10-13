@@ -1,3 +1,87 @@
+Kullanıcının amacı, daha önceki yanıtta bahsettiğimiz ve GitHub bağlantısını verdiği "Hospital Management System" (Hastane Yönetim Sistemi) projesi için GitHub'a koyabileceği bir README dosyası metni oluşturmaktır.
+
+Bu proje, kullanıcının yüklediği "rapor-2.pdf" dosyasındaki BLM210 PROGRAMLAMA LAB. II PROJE 3'e karşılık gelmektedir. Ayrıca kullanıcının CV'sinde de bu projenin PHP ve MySQL ile yapıldığı belirtilmektedir.
+
+Önceki projede olduğu gibi, rapor dosyasındaki gereksinimleri ve CV'deki teknolojileri kullanarak kapsamlı bir README metni oluşturacağım.
+
+README Metni Oluşturma Planı:
+
+Başlık: Proje adını ve kısa açıklamasını belirt.
+
+Hakkında: Projenin amacını, temel fonksiyonlarını (hasta, doktor, yönetici işlemleri) rapor-2.pdf'ten yola çıkarak özetle.
+
+Kullanılan Teknolojiler: CV'den PHP ve MySQL'i ve rapordan VTYS ve dil önerilerini kullanarak listele.
+
+Temel Özellikler: Randevu, rapor ve kullanıcı işlemlerini, güvenlik ve arayüz detaylarını (AJAX, Dashboard) rapor-2.pdf'ten alarak listele.
+
+Veritabanı Tasarımı: Temel tabloları ve normalizasyon vurgusunu ekle.
+
+Kurulum: Kullanıcıya rehberlik edecek genel kurulum adımlarını ekle.Harika! Bu proje, CV'nizde de belirttiğiniz gibi PHP ve MySQL kullanılarak geliştirdiğiniz "Hospital Management System" (Hastane Yönetim Sistemi) projesidir.
+
+Bu proje, yüklediğiniz "rapor-2.pdf" dosyasındaki gereksinimlere dayanmaktadır. Bu detayları kullanarak, projenizin amacını ve teknik gücünü sergileyen kapsamlı bir README metni hazırlayalım:
+
+🏥 Hastane Takip ve Yönetim Sistemi (Hospital Management System)
+
+Bu proje, hastane operasyonlarını kolaylaştırmak ve optimize etmek amacıyla geliştirilmiş tam özellikli bir web uygulamasıdır. Sistem, hastaların kayıt oluşturabileceği, doktorlarla randevu alabileceği ve tıbbi raporları güvenli bir şekilde yönetebileceği merkezi bir platform sunar.
+
+Kocaeli Üniversitesi Bilgisayar Mühendisliği dersi kapsamında, Nesne Yönelimli Programlama (OOP) prensipleri ve ilişkisel veritabanı tasarımı esas alınarak geliştirilmiştir.
+
+Kullanılan Teknolojiler
+
+Kategori	Teknoloji	Açıklama
+Backend	PHP	Orta seviye yetkinliklerimle geliştirilmiş sunucu tabanlı mantık.
+Veritabanı	MySQL	İlişkisel veri tabanı yönetimi ve tasarımı için kullanılmıştır.
+Ön Yüz	HTML/CSS/JavaScript	Kullanıcı arayüzü geliştirmeleri ve dinamik etkileşimler için kullanılmıştır.
+VTYS Prensipleri	SQL	İleri düzey SQL bilgisi kullanılarak tablolar arası ilişkiler kurulmuştur.
+Temel Özellikler (Rapor Gereksinimleri)
+
+Proje, hastane yönetiminin kilit noktalarını ele alan kapsamlı özelliklere sahiptir:
+
+Rol Tabanlı Yönetim: Sistemde Hasta, Doktor ve Yönetici olmak üzere üç farklı rol bulunmaktadır.
+
+Randevu Yönetimi: Hastalar doktorlarla randevu alabilir ve mevcut randevularını iptal edebilir; sistem, veri tabanındaki güncellemeleri kontrol eder.
+
+Veri Yönetimi (CRUD): Arayüz üzerinden hasta ve doktor ekleme/silme işlemleri, ilgili tablolarda tetikleyici (trigger) fonksiyonlarıyla güncel tutulur.
+
+Tıbbi Raporlama:
+
+Tıbbi raporlar, sistemde görüntü dosyaları olarak saklanır ve veritabanında bu dosyalara işaret eden URL'ler tutulur.
+
+Raporlar ayrıca JSON formatında da yedeklenir.
+
+Dinamik Arayüz (AJAX): Kullanıcı arayüzünde sayfa yenilenmeden dosya yükleme ve indirme işlemleri için AJAX çağrıları kullanılmıştır.
+
+Güvenlik: Hassas laboratuvar verilerinin güvenliğini sağlamak için HTTPS protokolü ve uygun şifreleme yöntemleri uygulanmıştır.
+
+Dashboard'lar: Hasta ve doktor profillerinde, tıbbi geçmişlerini ve randevu geçmişlerini görebilmeleri için özel dashboard'lar yer alır.
+
+Veritabanı Tasarımı
+
+Veritabanı, 1NF, 2NF ve 3NF normalizasyon kurallarına uyularak ilişkisel bir yapıda tasarlanmıştır.
+
+Temel Tablolar: Hastalar, Doktorlar, Yöneticiler, Randevular ve Tıbbi Raporlar.
+
+İlişkisel Yapı: Her bir tablo için Primary Key ve Foreign Key tanımlanarak tablolar arası tutarlılık sağlanmıştır.
+
+Kurulum (Local Development)
+
+Projenin yerel ortamda çalıştırılması için aşağıdaki adımları takip ediniz:
+
+Gereksinimler:
+
+Bir web sunucusu ortamı (örneğin: XAMPP, WAMP veya MAMP).
+
+MySQL veritabanı.
+
+İndirme: Bu GitHub deposunu klonlayın veya zip olarak indirin.
+
+Kurulum: Proje dosyalarını web sunucunuzun kök dizinine (örneğin: XAMPP'te htdocs klasörüne) yerleştirin.
+
+Veritabanı: MySQL'de bir veritabanı oluşturun ve database/schema.sql dosyasını (veya benzer bir dosyayı) içe aktararak tabloları oluşturun.
+
+Ayarlar: Veritabanı bağlantı bilgilerini içeren yapılandırma dosyasını (örneğin: config.php) kendi yerel ayarlarınıza göre düzenleyin.
+
+Çalıştırma: Tarayıcınızda projenin adresine giderek uygulamayı başlatın.
 GİRİŞ SAYFASI
 <img width="1470" alt="335790972-520d12d3-4fd2-4a0b-a479-ca69da170eab" src="https://github.com/user-attachments/assets/ba5e4999-ebd5-4aa0-94a0-348474fdf757">
 DOKTOR SAYFASI
