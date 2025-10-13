@@ -1,24 +1,3 @@
-Kullanıcının amacı, daha önceki yanıtta bahsettiğimiz ve GitHub bağlantısını verdiği "Hospital Management System" (Hastane Yönetim Sistemi) projesi için GitHub'a koyabileceği bir README dosyası metni oluşturmaktır.
-
-Bu proje, kullanıcının yüklediği "rapor-2.pdf" dosyasındaki BLM210 PROGRAMLAMA LAB. II PROJE 3'e karşılık gelmektedir. Ayrıca kullanıcının CV'sinde de bu projenin PHP ve MySQL ile yapıldığı belirtilmektedir.
-
-Önceki projede olduğu gibi, rapor dosyasındaki gereksinimleri ve CV'deki teknolojileri kullanarak kapsamlı bir README metni oluşturacağım.
-
-README Metni Oluşturma Planı:
-
-Başlık: Proje adını ve kısa açıklamasını belirt.
-
-Hakkında: Projenin amacını, temel fonksiyonlarını (hasta, doktor, yönetici işlemleri) rapor-2.pdf'ten yola çıkarak özetle.
-
-Kullanılan Teknolojiler: CV'den PHP ve MySQL'i ve rapordan VTYS ve dil önerilerini kullanarak listele.
-
-Temel Özellikler: Randevu, rapor ve kullanıcı işlemlerini, güvenlik ve arayüz detaylarını (AJAX, Dashboard) rapor-2.pdf'ten alarak listele.
-
-Veritabanı Tasarımı: Temel tabloları ve normalizasyon vurgusunu ekle.
-
-Kurulum: Kullanıcıya rehberlik edecek genel kurulum adımlarını ekle.Harika! Bu proje, CV'nizde de belirttiğiniz gibi PHP ve MySQL kullanılarak geliştirdiğiniz "Hospital Management System" (Hastane Yönetim Sistemi) projesidir.
-
-Bu proje, yüklediğiniz "rapor-2.pdf" dosyasındaki gereksinimlere dayanmaktadır. Bu detayları kullanarak, projenizin amacını ve teknik gücünü sergileyen kapsamlı bir README metni hazırlayalım:
 
 🏥 Hastane Takip ve Yönetim Sistemi (Hospital Management System)
 
